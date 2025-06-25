@@ -9,12 +9,12 @@ This guide will help you set up a Python environment that works seamlessly with 
 
 ## Folder Structure
 
-All notebooks are organized chapter-wise under the `notebooks/` directory. Each chapter aligns with a specific blog post and builds progressively on the concepts covered earlier.
+All notebooks are organized chapter-wise. Each chapter aligns with a specific blog post and builds progressively on the concepts covered earlier.
 
 
 ---
 
-## Environment Setup for LangChain Tutorials (Jupyter + VS Code)
+## Environment Setup for LangChain Tutorials (Jupyter Notebook + VS Code)
 
 This guide will help you set up a Python environment for running LangChain tutorials in **Jupyter Notebooks** and connect it as a kernel in **Visual Studio Code**.
 
@@ -79,7 +79,7 @@ python -m ipykernel install --user --name=langchain-env --display-name "LangChai
 
 ---
 
-### ✅ Step 5: Open in VS Code and Select Kernel
+### Step 5: Open in VS Code and Select Kernel
 
 1. Launch **VS Code** and open this project folder.
 2. Open any `.ipynb` notebook.
@@ -105,6 +105,7 @@ touch .env
 ```
 OPENAI_API_KEY=your_openai_key
 GOOGLE_API_KEY=your_google_generativeai_key
+ANTHROPIC_API_KEY
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 ```
 
