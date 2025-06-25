@@ -1,18 +1,30 @@
-Great! Since you’ll be doing your tutorials in **Jupyter Notebooks**, here’s a complete and clean **`README.md`** section for setting up the environment and connecting it as a Jupyter kernel inside **VS Code**.
+
+# Generative AI with LangChains — Environment Setup Guide
+
+Welcome to the **Generative AI with LangChain Series**! This repository contains all the Jupyter notebooks, code examples, and supporting resources needed to follow along with our medium blog series on building Generative AI applications using LangChain.
+
+This guide will help you set up a Python environment that works seamlessly with **Jupyter Notebooks** inside **Visual Studio Code (VS Code)**. This setup ensures a consistent and isolated development environment, making it easier to experiment with LLMs, agents, RAG, and more.
 
 ---
 
-## 🛠️ Environment Setup for LangChain Tutorials (Jupyter + VS Code)
+## Folder Structure
+
+All notebooks are organized chapter-wise under the `notebooks/` directory. Each chapter aligns with a specific blog post and builds progressively on the concepts covered earlier.
+
+
+---
+
+## Environment Setup for LangChain Tutorials (Jupyter + VS Code)
 
 This guide will help you set up a Python environment for running LangChain tutorials in **Jupyter Notebooks** and connect it as a kernel in **Visual Studio Code**.
 
 ---
 
-### Step 1: Clone the Repository (if applicable)
+### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/langchain-tutorials.git
-cd langchain-tutorials
+git clone https://github.com/piyushagni5/langchain-ai.git
+cd langchain-ai
 ```
 
 ---
@@ -33,7 +45,7 @@ source .venv/bin/activate
 Or using **`conda`**:
 
 ```bash
-conda create -n langchain-env python=3.11 -y
+conda create -n langchain-env python=3.10 -y
 conda activate langchain-env
 conda install pip
 ```
@@ -79,8 +91,37 @@ python -m ipykernel install --user --name=langchain-env --display-name "LangChai
 4. You’re all set to start running LangChain notebooks in VS Code!
 
 ---
+### Step 6: Set Up API Keys
+To implement the code we will require external LLM providers like OpenAI, Google Gemini, or Hugging Face.
 
-### ✅ Step 6 (Optional): Jupyter Notebook Extensions
+1. Create a .env file in the project root:
+
+```bash
+touch .env
+```
+
+2. Add the following to `.env`:
+
+```
+OPENAI_API_KEY=your_openai_key
+GOOGLE_API_KEY=your_google_generativeai_key
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
+```
+
+3. Load them in your Python code:
+
+```python
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+> Only include keys relevant to the provider you're using in that notebook.
+
+
+
+
+
+### Step 6 (Optional): Jupyter Notebook Extensions
 
 To improve your Jupyter experience, you can install:
 
@@ -106,4 +147,3 @@ pip install -r requirements.txt
 ```
 
 ---
-

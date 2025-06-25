@@ -1,0 +1,2 @@
+HumanMessage(content="I want to know the status of my latest order")
+AIMessage(content="Your current order #435 is prepared for shipping. It will be delivered in 3-5 business days.")
