@@ -5,6 +5,28 @@ Welcome to the **Generative AI with LangChain Series**! This repository contains
 
 This guide will help you set up a Python environment that works seamlessly with **Jupyter Notebooks** inside **Visual Studio Code (VS Code)**. This setup ensures a consistent and isolated development environment, making it easier to experiment with LLMs, agents, RAG, and more.
 
+## 📚 Posts in this Series: Generative AI Using LangChain
+
+### 🔹 Part 1: The LangChain Fundamentals
+- **1.1** [Introduction to LangChain](https://medium.com/@piyushagni5/generative-ai-with-langchain-introduction-part-1-881a872a7644)  
+- **1.2** Models: The Brains of Your AI Application  
+- **1.3** Prompt Engineering 
+- **1.4** Structured Output & Output Parsers  
+- **1.5** Building Chains in LangChain  
+- **1.6** Memory: Giving LLMs a Long-Term Recall  
+
+### 🔹 Part 2: Enhancing LLMs with External Data
+- **2.1** Document Loaders and Text Splitters  
+- **2.2** Embeddings: Understanding Text Semantics  
+- **2.3** Vector Databases and Similarity Search  
+
+### 🔹 Part 3: Advanced LangChain Applications
+- **3.1** Agents: Empowering LLMs with Decision-Making  
+- **3.2** Retrieval-Augmented Generation (RAG)  
+- **3.3** Debugging & Testing with LangSmith  
+
+### 🔹 Part 4: Real-World Use Cases
+- **4.1** Building a Chatbot with LangChain
 ---
 
 ## Folder Structure
@@ -18,7 +40,6 @@ All notebooks are organized chapter-wise. Each chapter aligns with a specific bl
 
 This guide will help you set up a Python environment for running LangChain tutorials in **Jupyter Notebooks** and connect it as a kernel in **Visual Studio Code**.
 
----
 
 ### Step 1: Clone the Repository
 
