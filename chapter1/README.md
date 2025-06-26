@@ -20,11 +20,11 @@ Refer to the main [Environment Setup Guide](../README.md) for more details.
 
 | Section                                  | Notebook Filename                          | Link                                   |
 |------------------------------------------|--------------------------------------------|----------------------------------------|
-| Working with LLMs and Chat Models        | `Models.ipynb`                             | [Open](./Models.ipynb)                 |
-| Prompt Engineering in LangChain          | `PromptEngineering.ipynb`                  | [Open](./PromptEngineering.ipynb)      |
-| Structured Output & Output Parsers       | `OutputParsers.ipynb`                      | [Open](./OutputParsers.ipynb)          |
-| Building Chains in LangChain             | `Chains.ipynb`                             | [Open](./Chains.ipynb)                 |
-| Adding Memory to LLM Applications        | `MemoryInLangchain.ipynb`                  | [Open](./MemoryInLangchain.ipynb)      | 
+| Working with LLMs and Chat Models        | `Models.ipynb`                             | [Open](./01-Models.ipynb)                 |
+| Prompt Engineering in LangChain          | `PromptEngineering.ipynb`                  | [Open](./02-PromptEngineering.ipynb)      |
+| Structured Output & Output Parsers       | `OutputParsers.ipynb`                      | [Open](./03-OutputParsers.ipynb)          |
+| Building Chains in LangChain             | `Chains.ipynb`                             | [Open](./04-Chains.ipynb)                 |
+| Adding Memory to LLM Applications        | `MemoryInLangchain.ipynb`                  | [Open](./05-MemoryInLangchain.ipynb)      | 
 
 ---
 
