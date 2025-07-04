@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1">
+        <title>Deep Learning</title>
+        <author>Ian Goodfellow</author>
+        <year>2016</year>
+    </book>
+    <book id="2">
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <year>2009</year>
+    </book>
+    <book id="3">
+        <title>Artificial Intelligence: A Modern Approach</title>
+        <author>Stuart Russell</author>
+        <year>2020</year>
+    </book>
+</library>
